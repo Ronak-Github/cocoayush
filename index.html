@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>COCOAYUSH | India's own Organic Hair Oil Brand</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     /* Reset default margin and padding */
     * {
@@ -12,7 +14,7 @@
     }
 
     /* Set background color and text color for the banner */
-    .banner {
+  .banner {
       background-color: rgb(252, 47, 47);
       color: white;
       display: flex;
@@ -47,16 +49,16 @@
     }
 
     nav ul li a:hover {
-      background-color: #ddd;
-      border-radius: 4px;
-    }
+    background-color: #fd8004;
+    border-radius: 4px;
+  }
 
-    main {
-      padding: 20px;
-      max-width: 1200px; /* Set the maximum width of the main container */
-      margin: 0 auto; /* Center the main container horizontally */
-      background-color: #f0f5f4; /* Set the new background color */
-    }
+  main {
+    padding: 20px;
+    max-width: 1200px; /* Set the maximum width of the main container */
+    margin: 0 auto; /* Center the main container horizontally */
+    background-color: #f5f5f5; /* Updated soothing background color */
+  }
 
 
     /* Additional styles */
@@ -251,11 +253,11 @@
     }
     /* Additional styles for footer section */
     footer {
-  background-color: #57535469;
-  padding: 50px;
-  text-align: center;
-  color: white; /* Set text color to white */
-}
+    background-color: #575354; /* Updated soothing background color */
+    padding: 50px;
+    text-align: center;
+    color: white; /* Set text color to white */
+  }
 
 .footer-container {
   max-width: 1200px;
@@ -321,34 +323,44 @@
     </nav>
   </header>
 
-  <img class="new-image" src="banner1.jpg" alt="Banner Image">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <img src="banner1.jpg">
+    </div>
+    <div class="item">
+      <img src="banner-1-1.jpg">
+    </div>
+    <div class="item">
+      <img src="banner-2.jpg">
+    </div>
+</div>
 
   <main>
     <div class="section" id="product-section">
       <h2 class="section-heading">Our Products</h2>
       <div class="product-container">
-        <div class="product-card">
-          <img src="red_onion_hair_oil.jpg" alt="Red Onion Hair Oil">
-          <h3>Red Onion Hair Oil</h3>
-          <a class="buy-now-btn" href="https://www.amazon.com/">Buy Now</a>
-        </div>
-        <div class="product-card">
-          <img src="coconut_hair_oil.jpg" alt="Coconut Hair Oil">
-          <h3>Coconut Hair Oil</h3>
-          <a class="buy-now-btn" href="https://www.amazon.com/">Buy Now</a>
-        </div>
-        <div class="product-card">
-          <img src="hibiscus_hair_oil.jpg" alt="Hibiscus Hair Oil">
-          <h3>Hibiscus Hair Oil</h3>
-          <a class="buy-now-btn" href="https://www.amazon.com/">Buy Now</a>
-        </div>
+            <div class="product-card">
+              <img src="red_onion_hair_oil.jpg" alt="Red Onion Hair Oil">
+              <h3>Red Onion Hair Oil</h3>
+              <a class="buy-now-btn" href="https://www.amazon.com/">Buy Now</a>
+            </div>
+            <div class="product-card">
+              <img src="coconut_hair_oil.jpg" alt="Coconut Hair Oil">
+              <h3>Coconut Hair Oil</h3>
+              <a class="buy-now-btn" href="https://www.amazon.com/">Buy Now</a>
+            </div>
+            <div class="product-card">
+              <img src="hibiscus_hair_oil.jpg" alt="Hibiscus Hair Oil">
+              <h3>Hibiscus Hair Oil</h3>
+              <a class="buy-now-btn" href="https://www.amazon.com/">Buy Now</a>
+            </div>
       </div>
     </div>
     
     <div class="section" id="video-section">
       <div class="video-container">
         <div class="video">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/dM8616188sE" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="text-content">
           <h2>COCOAYUSH</h2>
@@ -366,51 +378,68 @@
     </div>
     <!-- Testimonials Section -->
   <div class="section testimonial-section">
-    <h2 class="section-heading">Testimonials</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial-card">
-        <div class="testimonial-image">
-          <img src="Rahul_Kamat.jpg" alt="Testimonial 1">
+    <h2 class="section-heading">Our Customer's Feedback</h2>
+      <div class="testimonial-grid">
+        <div class="owl-carousel owl-theme">
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="Rahul_Kamat.jpg" alt="Testimonial 1">
+          </div>
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Rahul Kamat</h3>
+            <p class="testimonial-feedback">"Cocoayush onion hair oil has been a lifesaver for my hair fall problem. 
+                                            After trying several hair care products without success, I decided to give 
+                                            this product a try, and I am so glad that I did. The combination of organic 
+                                            coconut oil, onion extract and methi in this hair oil has worked wonders in 
+                                            reducing my hair fall and promoting new hair growth. The oil is lightweight 
+                                            and easy to apply, and it doesn't leave any greasy residue on my hair."</p>
+          </div>
         </div>
-        <div class="testimonial-info">
-          <h3 class="testimonial-name">Rahul Kamat</h3>
-          <p class="testimonial-feedback">"Cocoayush onion hair oil has been a lifesaver for my hair fall problem. 
-                                          After trying several hair care products without success, I decided to give 
-                                          this product a try, and I am so glad that I did. The combination of organic 
-                                          coconut oil, onion extract and methi in this hair oil has worked wonders in 
-                                          reducing my hair fall and promoting new hair growth. The oil is lightweight 
-                                          and easy to apply, and it doesn't leave any greasy residue on my hair."</p>
-        </div>
-      </div>
 
-      <div class="testimonial-card">
-        <div class="testimonial-image">
-          <img src="Shalini_Sharma.jpg" alt="Testimonial 2">
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="Shalini_Sharma.jpg" alt="Testimonial 2">
+          </div>
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Shalini Sharma</h3>
+            <p class="testimonial-feedback">"I have been using Cocoayush onion hair oil for the past few months, and 
+                                            it has made a significant difference in the texture and quality of my hair. 
+                                            The oil is enriched with natural ingredients and is free from harmful 
+                                            chemicals. It has helped me in improving the overall health of my hair. 
+                                            My hair feels much softer, smoother, and shinier after using this hair 
+                                            oil regularly. I would highly recommend Cocoayush onion hair oil to 
+                                            anyone looking for a natural and effective solution for their hair problems."</p>
+          </div>
         </div>
-        <div class="testimonial-info">
-          <h3 class="testimonial-name">Shalini Sharma</h3>
-          <p class="testimonial-feedback">"I have been using Cocoayush onion hair oil for the past few months, and 
-                                          it has made a significant difference in the texture and quality of my hair. 
-                                          The oil is enriched with natural ingredients and is free from harmful 
-                                          chemicals. It has helped me in improving the overall health of my hair. 
-                                          My hair feels much softer, smoother, and shinier after using this hair 
-                                          oil regularly. I would highly recommend Cocoayush onion hair oil to 
-                                          anyone looking for a natural and effective solution for their hair problems."</p>
-        </div>
-      </div>
 
-      <div class="testimonial-card">
-        <div class="testimonial-image">
-          <img src="Zainab_Khan.jpg" alt="Testimonial 3">
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="Zainab_Khan.jpg" alt="Testimonial 3">
+          </div>
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Zainab Khan</h3>
+            <p class="testimonial-feedback">"From the moment I started using this cocoayush coconut hair oil, I noticed a significant improvement in 
+                                            the overall health and appearance of my hair. The oil's rich and nourishing formula deeply  
+                                            moisturizes and conditions my hair, leaving it incredibly soft, silky, and lustrous. It effectively 
+                                            tackles dryness and frizz, making my hair more manageable and tangle-free. 
+                                          I appreciate that this product is free from harmful chemicals and synthetic fragrances, ensuring 
+                                          that my hairs are not exposed to any potential irritants."</p>
+          </div>
         </div>
-        <div class="testimonial-info">
-          <h3 class="testimonial-name">Zainab Khan</h3>
-          <p class="testimonial-feedback">"I have been using this oil on my little one during his daily massage routine. The oil 
-                                        is made with organic coconut and olive oils, which provide deep hydration and nourishment 
-                                        to the skin. It is gentle and non-greasy, making it easy to apply and absorb into the skin. 
-                                        I appreciate that this product is free from harmful chemicals and synthetic fragrances, ensuring 
-                                        that my baby's sensitive skin is not exposed to any potential irritants."</p>
+
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="Poonam_Mehta.jpg" alt="Testimonial 3">
+          </div>
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Poonam Mehta</h3>
+            <p class="testimonial-feedback">"Cocoayush Hair Oil, crafted with natural and pure ingredients, gives me the confidence of
+                                              luxurious hair care. It nourishes and enhances my hair, leaving it soft, shiny, and effortlessly   
+                                              manageable. With Cocoayush Hair Oil, I trust that I'm giving my hair the best care it  
+                                              deserves. Say hello to beautiful, healthy hair and bid farewell to worries with Cocoayush Hair Oil."</p>
+          </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -441,6 +470,30 @@
       </div>
     </div>
   </footer>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:5000,
+        dots:false,
+        nav:false,
+        stagePadding:50,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:1,
+            },
+            1000:{
+                items:1,
+            }
+        }
+    })
+  </script>
 </body>
 </html>
